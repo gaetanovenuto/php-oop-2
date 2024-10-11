@@ -1,15 +1,5 @@
 <?php
-
-require_once __DIR__.'/classes/categories.php';
 require_once __DIR__.'/classes/products.php';
-
-// Creazione categoria cani
-
-$dogCategory = new Category('Dogs');
-
-// Creazione categoria gatti
-
-$catCategory = new Category('Cats');
 
 // Prodotti per cane
 
